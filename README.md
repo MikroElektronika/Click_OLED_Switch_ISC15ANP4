@@ -1,6 +1,6 @@
 ![MikroE](http://www.mikroe.com/img/designs/beta/logo_small.png)
 
-![OLED Switch Click](http://cdn.mikroe.com/img/click/oled_switch/img.png)
+![OLED Switch Click](http://cdn.mikroe.com/img/click/oled-switch/oled-switch-click-c.png)
 
 ---
 [Product Page](http://www.mikroe.com/index.php?url=click/oled-switch/)
