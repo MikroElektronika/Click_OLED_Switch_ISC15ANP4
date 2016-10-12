@@ -1,0 +1,127 @@
+\hypertarget{oled__switch__hal_8c}{}\section{src/oled\+\_\+switch\+\_\+hal.c File Reference}
+\label{oled__switch__hal_8c}\index{src/oled\+\_\+switch\+\_\+hal.\+c@{src/oled\+\_\+switch\+\_\+hal.\+c}}
+{\ttfamily \#include \char`\"{}oled\+\_\+switch\+\_\+hal.\+h\char`\"{}}\\*
+Include dependency graph for oled\+\_\+switch\+\_\+hal.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{oled__switch__hal_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{oled__switch__hal_8c_a0c7ca82a56914507cea04e27097d97d3}{oled\+\_\+switch\+\_\+hal\+\_\+cs} (uint8\+\_\+t logic)
+\item 
+void \hyperlink{oled__switch__hal_8c_a2d54d1bb51023311fba926afd591ebb2}{oled\+\_\+switch\+\_\+hal\+\_\+rst} (uint8\+\_\+t logic)
+\item 
+void \hyperlink{oled__switch__hal_8c_a01b49ec9fd635269e61fe88e66fa7363}{oled\+\_\+switch\+\_\+hal\+\_\+cmd} (uint8\+\_\+t logic)
+\item 
+void \hyperlink{oled__switch__hal_8c_aa121f9432d970df2e680706c41f7f177}{oled\+\_\+switch\+\_\+hal\+\_\+init} ()
+\item 
+void \hyperlink{oled__switch__hal_8c_afeb1223a4015c28bc36ff45a4c4c5a9a}{oled\+\_\+switch\+\_\+hal\+\_\+write} (uint8\+\_\+t cmd, uint8\+\_\+t $\ast$buffer, uint16\+\_\+t count)
+\item 
+void \hyperlink{oled__switch__hal_8c_add97150f4c7ec3a4c0b38bf9a22533d8}{oled\+\_\+switch\+\_\+hal\+\_\+write\+\_\+image} (const unsigned char $\ast$ptr, uint16\+\_\+t image\+\_\+size)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{H\+A\+L layer }
+
+\subsection{Function Documentation}
+\hypertarget{oled__switch__hal_8c_a01b49ec9fd635269e61fe88e66fa7363}{}\index{oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}!oled\+\_\+switch\+\_\+hal\+\_\+cmd@{oled\+\_\+switch\+\_\+hal\+\_\+cmd}}
+\index{oled\+\_\+switch\+\_\+hal\+\_\+cmd@{oled\+\_\+switch\+\_\+hal\+\_\+cmd}!oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}}
+\subsubsection[{oled\+\_\+switch\+\_\+hal\+\_\+cmd}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+hal\+\_\+cmd (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{logic}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hal_8c_a01b49ec9fd635269e61fe88e66fa7363}
+\paragraph*{R\+S\+T C\+M\+D Control }
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em logic} & -\/ logical state of C\+M\+D pin \\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hal_8c_a0c7ca82a56914507cea04e27097d97d3}{}\index{oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}!oled\+\_\+switch\+\_\+hal\+\_\+cs@{oled\+\_\+switch\+\_\+hal\+\_\+cs}}
+\index{oled\+\_\+switch\+\_\+hal\+\_\+cs@{oled\+\_\+switch\+\_\+hal\+\_\+cs}!oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}}
+\subsubsection[{oled\+\_\+switch\+\_\+hal\+\_\+cs}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+hal\+\_\+cs (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{logic}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hal_8c_a0c7ca82a56914507cea04e27097d97d3}
+\paragraph*{C\+S Control }
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em logic} & -\/ logical state of C\+S pin \\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hal_8c_aa121f9432d970df2e680706c41f7f177}{}\index{oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}!oled\+\_\+switch\+\_\+hal\+\_\+init@{oled\+\_\+switch\+\_\+hal\+\_\+init}}
+\index{oled\+\_\+switch\+\_\+hal\+\_\+init@{oled\+\_\+switch\+\_\+hal\+\_\+init}!oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}}
+\subsubsection[{oled\+\_\+switch\+\_\+hal\+\_\+init}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+hal\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hal_8c_aa121f9432d970df2e680706c41f7f177}
+\paragraph*{H\+A\+L Initialization }
+
+Hal layer initialization. Must be called before any other function. \hypertarget{oled__switch__hal_8c_a2d54d1bb51023311fba926afd591ebb2}{}\index{oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}!oled\+\_\+switch\+\_\+hal\+\_\+rst@{oled\+\_\+switch\+\_\+hal\+\_\+rst}}
+\index{oled\+\_\+switch\+\_\+hal\+\_\+rst@{oled\+\_\+switch\+\_\+hal\+\_\+rst}!oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}}
+\subsubsection[{oled\+\_\+switch\+\_\+hal\+\_\+rst}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+hal\+\_\+rst (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{logic}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hal_8c_a2d54d1bb51023311fba926afd591ebb2}
+\paragraph*{R\+S\+T Control }
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em logic} & -\/ logical state of R\+S\+T pin \\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hal_8c_afeb1223a4015c28bc36ff45a4c4c5a9a}{}\index{oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}!oled\+\_\+switch\+\_\+hal\+\_\+write@{oled\+\_\+switch\+\_\+hal\+\_\+write}}
+\index{oled\+\_\+switch\+\_\+hal\+\_\+write@{oled\+\_\+switch\+\_\+hal\+\_\+write}!oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}}
+\subsubsection[{oled\+\_\+switch\+\_\+hal\+\_\+write}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+hal\+\_\+write (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{cmd, }
+\item[{uint8\+\_\+t $\ast$}]{buffer, }
+\item[{uint16\+\_\+t}]{count}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hal_8c_afeb1223a4015c28bc36ff45a4c4c5a9a}
+\paragraph*{S\+P\+I Write }
+
+\begin{DoxyParagraph}{}
+Writes data through S\+P\+I bus
+\end{DoxyParagraph}
+\begin{DoxyNote}{Note}
+Function have no affect to the C\+S P\+I\+N state -\/ chip select is controled directly from H\+W layer.
+\end{DoxyNote}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em buffer} & \\
+\hline
+\mbox{\tt in}  & {\em count} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hal_8c_add97150f4c7ec3a4c0b38bf9a22533d8}{}\index{oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}!oled\+\_\+switch\+\_\+hal\+\_\+write\+\_\+image@{oled\+\_\+switch\+\_\+hal\+\_\+write\+\_\+image}}
+\index{oled\+\_\+switch\+\_\+hal\+\_\+write\+\_\+image@{oled\+\_\+switch\+\_\+hal\+\_\+write\+\_\+image}!oled\+\_\+switch\+\_\+hal.\+c@{oled\+\_\+switch\+\_\+hal.\+c}}
+\subsubsection[{oled\+\_\+switch\+\_\+hal\+\_\+write\+\_\+image}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+hal\+\_\+write\+\_\+image (
+\begin{DoxyParamCaption}
+\item[{const unsigned char $\ast$}]{ptr, }
+\item[{uint16\+\_\+t}]{image\+\_\+size}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hal_8c_add97150f4c7ec3a4c0b38bf9a22533d8}
+\paragraph*{O\+L\+E\+D Switch H\+A\+L Write Image }
+
+\begin{DoxyParagraph}{}
+Writes an image to the R\+A\+M of O\+L\+E\+D Switch click module
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em ptr} & -\/ 565 formatted image to display \\
+\hline
+\mbox{\tt in}  & {\em image\+\_\+size} & -\/ Size of bytes in array \\
+\hline
+\end{DoxyParams}

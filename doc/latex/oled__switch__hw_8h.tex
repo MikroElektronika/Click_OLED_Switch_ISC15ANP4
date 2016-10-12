@@ -1,0 +1,462 @@
+\hypertarget{oled__switch__hw_8h}{}\section{inc/oled\+\_\+switch\+\_\+hw.h File Reference}
+\label{oled__switch__hw_8h}\index{inc/oled\+\_\+switch\+\_\+hw.\+h@{inc/oled\+\_\+switch\+\_\+hw.\+h}}
+{\ttfamily \#include $<$stdint.\+h$>$}\\*
+Include dependency graph for oled\+\_\+switch\+\_\+hw.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{oled__switch__hw_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=191pt]{oled__switch__hw_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structscroll__t}{scroll\+\_\+t}
+\item 
+struct \hyperlink{structcoord__t}{coord\+\_\+t}
+\item 
+struct \hyperlink{structcolor__t}{color\+\_\+t}
+\item 
+struct \hyperlink{structcontrast__t}{contrast\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{oled__switch__hw_8h_a49c7a3d1cda7be56fe7ff724b65df7d5}{}enum {\bfseries fill\+\_\+sett\+\_\+t} \{ {\bfseries D\+I\+S\+A\+B\+L\+E\+\_\+\+F\+I\+L\+L} = 0, 
+{\bfseries E\+N\+A\+B\+L\+E\+\_\+\+F\+I\+L\+L} = 1, 
+{\bfseries D\+I\+S\+A\+B\+L\+E\+\_\+\+R\+E\+V\+E\+R\+S\+E\+\_\+\+C\+O\+P\+Y} = 0, 
+{\bfseries E\+N\+A\+B\+L\+E\+\_\+\+R\+E\+V\+E\+R\+S\+E\+\_\+\+C\+O\+P\+Y} = 16
+ \}\label{oled__switch__hw_8h_a49c7a3d1cda7be56fe7ff724b65df7d5}
+
+\item 
+\hypertarget{oled__switch__hw_8h_aa3d2e0f6323333826ad4345f3fb8e290}{}enum {\bfseries color\+\_\+depth\+\_\+t} \{ \\*
+{\bfseries H\+O\+R\+I\+Z\+\_\+\+A\+D\+D\+\_\+\+I\+N\+C} = 0, 
+{\bfseries V\+E\+R\+T\+\_\+\+A\+D\+D\+\_\+\+I\+N\+C} = 1, 
+{\bfseries R\+A\+M\+\_\+\+C\+O\+L\+\_\+0\+\_\+95} = 0, 
+{\bfseries R\+A\+M\+\_\+\+C\+O\+L\+\_\+95\+\_\+0} = 2, 
+\\*
+{\bfseries R\+G\+B\+\_\+\+O\+R\+D\+E\+R} = 0, 
+{\bfseries B\+G\+R\+\_\+\+O\+R\+D\+E\+R} = 4, 
+{\bfseries D\+I\+S\+A\+B\+L\+E\+\_\+\+C\+O\+M\+\_\+\+S\+W\+A\+P\+P\+I\+N\+G} = 0, 
+{\bfseries E\+N\+A\+B\+L\+E\+\_\+\+C\+O\+M\+\_\+\+S\+W\+A\+P\+P\+I\+N\+G} = 8, 
+\\*
+{\bfseries C\+O\+L\+O\+R\+\_\+256} = 0, 
+{\bfseries C\+O\+L\+O\+R\+\_\+65\+K} = 64
+ \}\label{oled__switch__hw_8h_aa3d2e0f6323333826ad4345f3fb8e290}
+
+\item 
+\hypertarget{oled__switch__hw_8h_acad2a853388e7ca3d29e8399ba40d446}{}enum {\bfseries buffer\+\_\+size\+\_\+t} \{ {\bfseries B\+I\+G} = 0, 
+{\bfseries S\+M\+A\+L\+L} = 1
+ \}\label{oled__switch__hw_8h_acad2a853388e7ca3d29e8399ba40d446}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{oled__switch__hw_8h_a44fd6c6f32e6df6fa4008d359f2cad35}{oled\+\_\+switch\+\_\+init} (buffer\+\_\+size\+\_\+t size)
+\item 
+void \hyperlink{oled__switch__hw_8h_a0047e20a4e4d193c45b73cc8b8acead6}{oled\+\_\+switch\+\_\+draw\+\_\+565\+\_\+img} (const unsigned char $\ast$img, uint16\+\_\+t image\+\_\+size)
+\item 
+void \hyperlink{oled__switch__hw_8h_a0ca30c1fa5e28446db7a6a3857f9b49c}{oled\+\_\+switch\+\_\+scrolling\+\_\+setup} (\hyperlink{structscroll__t}{scroll\+\_\+t} setup)
+\item 
+void \hyperlink{oled__switch__hw_8h_a6d809718ff59fba01871a12afce85c63}{oled\+\_\+switch\+\_\+deactivate\+\_\+scrolling} (void)
+\item 
+void \hyperlink{oled__switch__hw_8h_a06d7b211c4481fb2556ebf9bba65535a}{oled\+\_\+switch\+\_\+activate\+\_\+scrolling} (void)
+\item 
+void \hyperlink{oled__switch__hw_8h_a9e058e9b3db7198af452fc327b22cefe}{oled\+\_\+switch\+\_\+draw\+\_\+line} (\hyperlink{structcoord__t}{coord\+\_\+t} address, \hyperlink{structcolor__t}{color\+\_\+t} color)
+\item 
+void \hyperlink{oled__switch__hw_8h_a6c1f7872dfa5398400c7b6e25a3aecb4}{oled\+\_\+switch\+\_\+dim\+\_\+window} (\hyperlink{structcoord__t}{coord\+\_\+t} window)
+\item 
+void \hyperlink{oled__switch__hw_8h_a1989493e66e4199e1cd6c0a4b6b31833}{oled\+\_\+switch\+\_\+clear\+\_\+window} (\hyperlink{structcoord__t}{coord\+\_\+t} window)
+\item 
+void \hyperlink{oled__switch__hw_8h_ac0315e311426d94476243a6c9468fac0}{oled\+\_\+switch\+\_\+draw\+\_\+rectangle} (\hyperlink{structcoord__t}{coord\+\_\+t} rect, \hyperlink{structcolor__t}{color\+\_\+t} line, \hyperlink{structcolor__t}{color\+\_\+t} fill)
+\item 
+void \hyperlink{oled__switch__hw_8h_a22d9dde9c133eab74e9774b092916ad4}{oled\+\_\+switch\+\_\+copy} (\hyperlink{structcoord__t}{coord\+\_\+t} from, \hyperlink{structcoord__t}{coord\+\_\+t} to)
+\item 
+void \hyperlink{oled__switch__hw_8h_a38e86626a9adc5a3a9f6d914b78c15c7}{oled\+\_\+switch\+\_\+fill\+\_\+settings} (fill\+\_\+sett\+\_\+t sett)
+\item 
+void \hyperlink{oled__switch__hw_8h_ac843ff2dc4d31721833e938b05b1f7e3}{oled\+\_\+switch\+\_\+set\+\_\+abc\+\_\+contrast} (\hyperlink{structcontrast__t}{contrast\+\_\+t} $\ast$contrast)
+\item 
+void \hyperlink{oled__switch__hw_8h_a7f9d028a991f04338ff5a7aaa2c77455}{oled\+\_\+switch\+\_\+set\+\_\+master\+\_\+current} (uint8\+\_\+t current)
+\item 
+void \hyperlink{oled__switch__hw_8h_a744730e8b01da61fd1f1beb33fe11d47}{oled\+\_\+switch\+\_\+set\+\_\+remap\+\_\+color\+\_\+depth} (color\+\_\+depth\+\_\+t depth)
+\item 
+void \hyperlink{oled__switch__hw_8h_a2e93acf77210bc66cd2537a61578850d}{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+start\+\_\+line} (uint8\+\_\+t st\+\_\+line)
+\item 
+void \hyperlink{oled__switch__hw_8h_ac879b9f6ba1b6208920e8c80fa030f95}{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+offset} (uint8\+\_\+t offset)
+\item 
+void \hyperlink{oled__switch__hw_8h_a415aa0b02a9a025b91875a6ad4f9edd0}{oled\+\_\+switch\+\_\+set\+\_\+normal\+\_\+display} (void)
+\item 
+void \hyperlink{oled__switch__hw_8h_a70efacdb11ae73e726d313179322c7fe}{oled\+\_\+switch\+\_\+set\+\_\+multiplex\+\_\+ratio} (uint8\+\_\+t ratio)
+\item 
+void \hyperlink{oled__switch__hw_8h_a261c873f2c078a887a0af5a6fcca5dbb}{oled\+\_\+switch\+\_\+set\+\_\+row\+\_\+range} (uint8\+\_\+t start, uint8\+\_\+t end)
+\item 
+void \hyperlink{oled__switch__hw_8h_aeb1b8a4e4e1265c6400aca0669c83173}{oled\+\_\+switch\+\_\+set\+\_\+col\+\_\+range} (uint8\+\_\+t start, uint8\+\_\+t end)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\paragraph*{Hardware Layer }
+
+\begin{DoxyParagraph}{}
+Low level functions for \href{http://www.mikroe.com}{\tt Mikro\+Elektronika\textquotesingle{}s} O\+L\+E\+D Switch click board. 
+\end{DoxyParagraph}
+
+
+\subsection{Function Documentation}
+\hypertarget{oled__switch__hw_8h_a06d7b211c4481fb2556ebf9bba65535a}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+activate\+\_\+scrolling@{oled\+\_\+switch\+\_\+activate\+\_\+scrolling}}
+\index{oled\+\_\+switch\+\_\+activate\+\_\+scrolling@{oled\+\_\+switch\+\_\+activate\+\_\+scrolling}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+activate\+\_\+scrolling}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+activate\+\_\+scrolling (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a06d7b211c4481fb2556ebf9bba65535a}
+\paragraph*{O\+L\+E\+D Switch Activate Scrolling }
+
+\begin{DoxyParagraph}{}
+Activates scrolling on the O\+L\+E\+D Switch click.
+\end{DoxyParagraph}
+\hypertarget{oled__switch__hw_8h_a1989493e66e4199e1cd6c0a4b6b31833}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+clear\+\_\+window@{oled\+\_\+switch\+\_\+clear\+\_\+window}}
+\index{oled\+\_\+switch\+\_\+clear\+\_\+window@{oled\+\_\+switch\+\_\+clear\+\_\+window}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+clear\+\_\+window}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+clear\+\_\+window (
+\begin{DoxyParamCaption}
+\item[{{\bf coord\+\_\+t}}]{window}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a1989493e66e4199e1cd6c0a4b6b31833}
+\paragraph*{O\+L\+E\+D Switch Clear Window }
+
+\begin{DoxyParagraph}{}
+Clears a window of the O\+L\+E\+D Switch click
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & -\/ Address of start and end positions of window to clear\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a22d9dde9c133eab74e9774b092916ad4}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+copy@{oled\+\_\+switch\+\_\+copy}}
+\index{oled\+\_\+switch\+\_\+copy@{oled\+\_\+switch\+\_\+copy}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+copy}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+copy (
+\begin{DoxyParamCaption}
+\item[{{\bf coord\+\_\+t}}]{from, }
+\item[{{\bf coord\+\_\+t}}]{to}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a22d9dde9c133eab74e9774b092916ad4}
+\paragraph*{O\+L\+E\+D Switch Copy }
+
+\begin{DoxyParagraph}{}
+Copys a window of the O\+L\+E\+D Switch click to another area of the same size
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em from} & -\/ Address of start and end positions of window to copy from \\
+\hline
+\mbox{\tt in}  & {\em to} & -\/ Address of start and end positioins of window to copy to\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a6d809718ff59fba01871a12afce85c63}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+deactivate\+\_\+scrolling@{oled\+\_\+switch\+\_\+deactivate\+\_\+scrolling}}
+\index{oled\+\_\+switch\+\_\+deactivate\+\_\+scrolling@{oled\+\_\+switch\+\_\+deactivate\+\_\+scrolling}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+deactivate\+\_\+scrolling}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+deactivate\+\_\+scrolling (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a6d809718ff59fba01871a12afce85c63}
+\paragraph*{O\+L\+E\+D Switch Deactivate Scrolling }
+
+\begin{DoxyParagraph}{}
+Deactivates scrolling on O\+L\+E\+D Switch click
+\end{DoxyParagraph}
+\hypertarget{oled__switch__hw_8h_a6c1f7872dfa5398400c7b6e25a3aecb4}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+dim\+\_\+window@{oled\+\_\+switch\+\_\+dim\+\_\+window}}
+\index{oled\+\_\+switch\+\_\+dim\+\_\+window@{oled\+\_\+switch\+\_\+dim\+\_\+window}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+dim\+\_\+window}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+dim\+\_\+window (
+\begin{DoxyParamCaption}
+\item[{{\bf coord\+\_\+t}}]{window}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a6c1f7872dfa5398400c7b6e25a3aecb4}
+\paragraph*{O\+L\+E\+D Switch Dim Window }
+
+\begin{DoxyParagraph}{}
+Dims a window of the O\+L\+E\+D Switch click
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em window} & -\/ Address of start and end positions of window to dim\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a0047e20a4e4d193c45b73cc8b8acead6}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+draw\+\_\+565\+\_\+img@{oled\+\_\+switch\+\_\+draw\+\_\+565\+\_\+img}}
+\index{oled\+\_\+switch\+\_\+draw\+\_\+565\+\_\+img@{oled\+\_\+switch\+\_\+draw\+\_\+565\+\_\+img}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+draw\+\_\+565\+\_\+img}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+draw\+\_\+565\+\_\+img (
+\begin{DoxyParamCaption}
+\item[{const unsigned char $\ast$}]{img, }
+\item[{uint16\+\_\+t}]{image\+\_\+size}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a0047e20a4e4d193c45b73cc8b8acead6}
+\paragraph*{O\+L\+E\+D Switch Draw 565 Image }
+
+\begin{DoxyParagraph}{}
+Takes a 565 formatted array and writes it to the O\+L\+E\+D switch\textquotesingle{}s memory.
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em img} & -\/ Unsigned char array of 6144 or 12288 bytes ( S\+M\+A\+L\+L or B\+I\+G ) 565 formatted. \\
+\hline
+\mbox{\tt in}  & {\em image\+\_\+size} & -\/ Size of the image ( 6144\+:S\+M\+A\+L\+L, 12288\+:B\+I\+G )\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a9e058e9b3db7198af452fc327b22cefe}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+draw\+\_\+line@{oled\+\_\+switch\+\_\+draw\+\_\+line}}
+\index{oled\+\_\+switch\+\_\+draw\+\_\+line@{oled\+\_\+switch\+\_\+draw\+\_\+line}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+draw\+\_\+line}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+draw\+\_\+line (
+\begin{DoxyParamCaption}
+\item[{{\bf coord\+\_\+t}}]{address, }
+\item[{{\bf color\+\_\+t}}]{color}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a9e058e9b3db7198af452fc327b22cefe}
+\paragraph*{O\+L\+E\+D Switch Draw Line }
+
+\begin{DoxyParagraph}{}
+Draws a line on the O\+L\+E\+D Switch click
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em address} & -\/ Start and end addresses of line \\
+\hline
+\mbox{\tt in}  & {\em color} & -\/ R\+G\+B Color of the line\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_ac0315e311426d94476243a6c9468fac0}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+draw\+\_\+rectangle@{oled\+\_\+switch\+\_\+draw\+\_\+rectangle}}
+\index{oled\+\_\+switch\+\_\+draw\+\_\+rectangle@{oled\+\_\+switch\+\_\+draw\+\_\+rectangle}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+draw\+\_\+rectangle}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+draw\+\_\+rectangle (
+\begin{DoxyParamCaption}
+\item[{{\bf coord\+\_\+t}}]{rect, }
+\item[{{\bf color\+\_\+t}}]{line, }
+\item[{{\bf color\+\_\+t}}]{fill}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_ac0315e311426d94476243a6c9468fac0}
+\paragraph*{O\+L\+E\+D Switch Draw Rectangle }
+
+\begin{DoxyParagraph}{}
+Draws a rectangle on the O\+L\+E\+D Switch click
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rect} & -\/ Address of start and end positions to draw rectangle \\
+\hline
+\mbox{\tt in}  & {\em line} & -\/ R\+G\+B formatted color of the lines of rectangle \\
+\hline
+\mbox{\tt in}  & {\em fill} & -\/ R\+G\+B formatted color of the inside of the rectangle\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a38e86626a9adc5a3a9f6d914b78c15c7}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+fill\+\_\+settings@{oled\+\_\+switch\+\_\+fill\+\_\+settings}}
+\index{oled\+\_\+switch\+\_\+fill\+\_\+settings@{oled\+\_\+switch\+\_\+fill\+\_\+settings}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+fill\+\_\+settings}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+fill\+\_\+settings (
+\begin{DoxyParamCaption}
+\item[{fill\+\_\+sett\+\_\+t}]{sett}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a38e86626a9adc5a3a9f6d914b78c15c7}
+\paragraph*{O\+L\+E\+D Switch Fill Settings }
+
+\begin{DoxyParagraph}{}
+Disables or enables filling of rectangles when drawing with oled\+\_\+switch\+\_\+draw\+\_\+rectangle, and also disables or enables reverse copy during copy command\+: oled\+\_\+switch\+\_\+copy
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em sett} & -\/ Settings for copying and filling of rectangles\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a44fd6c6f32e6df6fa4008d359f2cad35}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+init@{oled\+\_\+switch\+\_\+init}}
+\index{oled\+\_\+switch\+\_\+init@{oled\+\_\+switch\+\_\+init}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+init}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{buffer\+\_\+size\+\_\+t}]{size}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a44fd6c6f32e6df6fa4008d359f2cad35}
+\paragraph*{H\+W Layer Initialization }
+
+\begin{DoxyParagraph}{}
+Prepares library for usage and sets needed values to default.
+\end{DoxyParagraph}
+\begin{DoxyNote}{Note}
+This function must be called first.
+\end{DoxyNote}
+Example \+: 
+\begin{DoxyCode}
+\end{DoxyCode}
+ \hypertarget{oled__switch__hw_8h_a0ca30c1fa5e28446db7a6a3857f9b49c}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+scrolling\+\_\+setup@{oled\+\_\+switch\+\_\+scrolling\+\_\+setup}}
+\index{oled\+\_\+switch\+\_\+scrolling\+\_\+setup@{oled\+\_\+switch\+\_\+scrolling\+\_\+setup}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+scrolling\+\_\+setup}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+scrolling\+\_\+setup (
+\begin{DoxyParamCaption}
+\item[{{\bf scroll\+\_\+t}}]{setup}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a0ca30c1fa5e28446db7a6a3857f9b49c}
+\paragraph*{O\+L\+E\+D Switch Scrolling Setup }
+
+\begin{DoxyParagraph}{}
+Sets up the O\+L\+E\+D Switch click for scrolling
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em setup} & -\/ Scrolling setup\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_ac843ff2dc4d31721833e938b05b1f7e3}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+abc\+\_\+contrast@{oled\+\_\+switch\+\_\+set\+\_\+abc\+\_\+contrast}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+abc\+\_\+contrast@{oled\+\_\+switch\+\_\+set\+\_\+abc\+\_\+contrast}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+abc\+\_\+contrast}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+abc\+\_\+contrast (
+\begin{DoxyParamCaption}
+\item[{{\bf contrast\+\_\+t} $\ast$}]{contrast}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_ac843ff2dc4d31721833e938b05b1f7e3}
+\paragraph*{O\+L\+E\+D Switch A\+B\+C Contrast }
+
+\begin{DoxyParagraph}{}
+Sets the contrast for A\+B\+C ( R\+G\+B ) colors on the O\+L\+E\+D Switch click display
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em contrast} & -\/ Contrast of A, B, and C ( R\+G\+B ) colors on O\+L\+E\+D Switch display\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_aeb1b8a4e4e1265c6400aca0669c83173}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+col\+\_\+range@{oled\+\_\+switch\+\_\+set\+\_\+col\+\_\+range}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+col\+\_\+range@{oled\+\_\+switch\+\_\+set\+\_\+col\+\_\+range}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+col\+\_\+range}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+col\+\_\+range (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{start, }
+\item[{uint8\+\_\+t}]{end}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_aeb1b8a4e4e1265c6400aca0669c83173}
+\paragraph*{O\+L\+E\+D Switch Set Column Range }
+
+\begin{DoxyParagraph}{}
+Sets the Column range for the O\+L\+E\+D Switch click display, ( for memory allocation on module )
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em start} & -\/ Start address of column range \\
+\hline
+\mbox{\tt in}  & {\em end} & -\/ End address of column range\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_ac879b9f6ba1b6208920e8c80fa030f95}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+offset@{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+offset}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+offset@{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+offset}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+offset}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+offset (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{offset}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_ac879b9f6ba1b6208920e8c80fa030f95}
+\paragraph*{O\+L\+E\+D Switch Set Display Offset }
+
+\begin{DoxyParagraph}{}
+Sets the display offset
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em offset} & -\/ O\+L\+E\+D Switch click display offset setting\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a2e93acf77210bc66cd2537a61578850d}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+start\+\_\+line@{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+start\+\_\+line}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+start\+\_\+line@{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+start\+\_\+line}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+start\+\_\+line}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+display\+\_\+start\+\_\+line (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{st\+\_\+line}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a2e93acf77210bc66cd2537a61578850d}
+\paragraph*{O\+L\+E\+D Switch Set Display Start Line }
+
+\begin{DoxyParagraph}{}
+Sets the start line for the O\+L\+E\+D Switch click to start at
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em st\+\_\+line} & -\/ Line for O\+L\+E\+D Switch click to start at\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a7f9d028a991f04338ff5a7aaa2c77455}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+master\+\_\+current@{oled\+\_\+switch\+\_\+set\+\_\+master\+\_\+current}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+master\+\_\+current@{oled\+\_\+switch\+\_\+set\+\_\+master\+\_\+current}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+master\+\_\+current}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+master\+\_\+current (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{current}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a7f9d028a991f04338ff5a7aaa2c77455}
+\paragraph*{O\+L\+E\+D Switch Master Current }
+
+\begin{DoxyParagraph}{}
+Sets the brightness of the O\+L\+E\+D Switch click display L\+E\+Ds
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em current} & -\/ Values from 0x00 -\/ 0x0\+F for brightness of L\+E\+Ds\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a70efacdb11ae73e726d313179322c7fe}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+multiplex\+\_\+ratio@{oled\+\_\+switch\+\_\+set\+\_\+multiplex\+\_\+ratio}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+multiplex\+\_\+ratio@{oled\+\_\+switch\+\_\+set\+\_\+multiplex\+\_\+ratio}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+multiplex\+\_\+ratio}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+multiplex\+\_\+ratio (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{ratio}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a70efacdb11ae73e726d313179322c7fe}
+\paragraph*{O\+L\+E\+D Switch Set Multiplex Ratio }
+
+\begin{DoxyParagraph}{}
+Sets the multiplex ratio for O\+L\+E\+D Switch click display
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em ratio} & -\/ Ratio for multiplex value on O\+L\+E\+D Switch click\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a415aa0b02a9a025b91875a6ad4f9edd0}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+normal\+\_\+display@{oled\+\_\+switch\+\_\+set\+\_\+normal\+\_\+display}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+normal\+\_\+display@{oled\+\_\+switch\+\_\+set\+\_\+normal\+\_\+display}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+normal\+\_\+display}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+normal\+\_\+display (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a415aa0b02a9a025b91875a6ad4f9edd0}
+\paragraph*{O\+L\+E\+D Switch Set Normal Display }
+
+\begin{DoxyParagraph}{}
+Sets the O\+L\+E\+D Switch click display to Normal display mode
+\end{DoxyParagraph}
+\hypertarget{oled__switch__hw_8h_a744730e8b01da61fd1f1beb33fe11d47}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+remap\+\_\+color\+\_\+depth@{oled\+\_\+switch\+\_\+set\+\_\+remap\+\_\+color\+\_\+depth}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+remap\+\_\+color\+\_\+depth@{oled\+\_\+switch\+\_\+set\+\_\+remap\+\_\+color\+\_\+depth}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+remap\+\_\+color\+\_\+depth}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+remap\+\_\+color\+\_\+depth (
+\begin{DoxyParamCaption}
+\item[{color\+\_\+depth\+\_\+t}]{depth}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a744730e8b01da61fd1f1beb33fe11d47}
+\paragraph*{O\+L\+E\+D Switch Set Remap and Color/\+Depth }
+
+\begin{DoxyParagraph}{}
+Sets address incrementing (horiz or vertical), R\+A\+M pin mapping, R\+G\+B order, left-\/right swapping on C\+O\+M, and color res.
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em depth} & -\/ Color depth settings\\
+\hline
+\end{DoxyParams}
+\hypertarget{oled__switch__hw_8h_a261c873f2c078a887a0af5a6fcca5dbb}{}\index{oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}!oled\+\_\+switch\+\_\+set\+\_\+row\+\_\+range@{oled\+\_\+switch\+\_\+set\+\_\+row\+\_\+range}}
+\index{oled\+\_\+switch\+\_\+set\+\_\+row\+\_\+range@{oled\+\_\+switch\+\_\+set\+\_\+row\+\_\+range}!oled\+\_\+switch\+\_\+hw.\+h@{oled\+\_\+switch\+\_\+hw.\+h}}
+\subsubsection[{oled\+\_\+switch\+\_\+set\+\_\+row\+\_\+range}]{\setlength{\rightskip}{0pt plus 5cm}void oled\+\_\+switch\+\_\+set\+\_\+row\+\_\+range (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{start, }
+\item[{uint8\+\_\+t}]{end}
+\end{DoxyParamCaption}
+)}\label{oled__switch__hw_8h_a261c873f2c078a887a0af5a6fcca5dbb}
+\paragraph*{O\+L\+E\+D Switch Set Row Range }
+
+\begin{DoxyParagraph}{}
+Sets the Row range for the O\+L\+E\+D Switch click display, ( for memory allocation on module )
+\end{DoxyParagraph}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em start} & -\/ Start address of row range \\
+\hline
+\mbox{\tt in}  & {\em end} & -\/ End address of row range\\
+\hline
+\end{DoxyParams}

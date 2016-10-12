@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Library Info"><param name="Local" value="_l_i_b__i_n_f_o.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Test Configurations"><param name="Local" value="_t_e_s_t__c_f_g.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="color_t"><param name="Local" value="structcolor__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="color_b"><param name="Local" value="structcolor__t.html#ac1756f5c8b8f8a6c880c1709ab0edc23"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="color_g"><param name="Local" value="structcolor__t.html#ae90c968013867a5583221ea5f4a2257a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="color_r"><param name="Local" value="structcolor__t.html#a6859a2b77e80c342f63659e9ef0256f1"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="contrast_t"><param name="Local" value="structcontrast__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="a_contrast"><param name="Local" value="structcontrast__t.html#a4217cc7ca5e77c3bf2c1acf4c1227539"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="b_contrast"><param name="Local" value="structcontrast__t.html#aa795693174c63e812ab08e4ec1d3061b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="c_contrast"><param name="Local" value="structcontrast__t.html#ae3c509833c2c1062dd60396c51983f76"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="coord_t"><param name="Local" value="structcoord__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="col_end"><param name="Local" value="structcoord__t.html#ae5ebbd1274749f38fc516c1bff3794ea"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="col_start"><param name="Local" value="structcoord__t.html#a2ee3105d3bc8ba24bab7c2327a63b8a3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="row_end"><param name="Local" value="structcoord__t.html#a82d9975db701c5417bfa89d78a1936dc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="row_start"><param name="Local" value="structcoord__t.html#a535f79016a227dafa8949c086a6e1250"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="scroll_t"><param name="Local" value="structscroll__t.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="col_horiz_shift"><param name="Local" value="structscroll__t.html#abe69addf5da8f79255caf4b88c35c47b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="interval"><param name="Local" value="structscroll__t.html#a7a6db7c78ae2acf13f1387ea876ba9a8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="row_horiz_shift"><param name="Local" value="structscroll__t.html#aad8a5aeb101d3ecc238969b092bdf82f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="row_offset"><param name="Local" value="structscroll__t.html#a93b4aaff35c9580ff68ae7adabe0616f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="row_vert_shift"><param name="Local" value="structscroll__t.html#a3d606f9d3afd48f874e204b86d59a6eb"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structure Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_bfccd401955b95cf8c75461437045ac0.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal.h"><param name="Local" value="oled__switch__hal_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_cmd"><param name="Local" value="oled__switch__hal_8h.html#a01b49ec9fd635269e61fe88e66fa7363"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_cs"><param name="Local" value="oled__switch__hal_8h.html#a0c7ca82a56914507cea04e27097d97d3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_init"><param name="Local" value="oled__switch__hal_8h.html#ad2606792cc366024b25e87e31951bc4a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_rst"><param name="Local" value="oled__switch__hal_8h.html#a2d54d1bb51023311fba926afd591ebb2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_write"><param name="Local" value="oled__switch__hal_8h.html#afeb1223a4015c28bc36ff45a4c4c5a9a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_write_image"><param name="Local" value="oled__switch__hal_8h.html#add97150f4c7ec3a4c0b38bf9a22533d8"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hw.h"><param name="Local" value="oled__switch__hw_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="scroll_t"><param name="Local" value="structscroll__t.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="col_horiz_shift"><param name="Local" value="structscroll__t.html#abe69addf5da8f79255caf4b88c35c47b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="interval"><param name="Local" value="structscroll__t.html#a7a6db7c78ae2acf13f1387ea876ba9a8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="row_horiz_shift"><param name="Local" value="structscroll__t.html#aad8a5aeb101d3ecc238969b092bdf82f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="row_offset"><param name="Local" value="structscroll__t.html#a93b4aaff35c9580ff68ae7adabe0616f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="row_vert_shift"><param name="Local" value="structscroll__t.html#a3d606f9d3afd48f874e204b86d59a6eb"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="coord_t"><param name="Local" value="structcoord__t.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="col_end"><param name="Local" value="structcoord__t.html#ae5ebbd1274749f38fc516c1bff3794ea"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="col_start"><param name="Local" value="structcoord__t.html#a2ee3105d3bc8ba24bab7c2327a63b8a3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="row_end"><param name="Local" value="structcoord__t.html#a82d9975db701c5417bfa89d78a1936dc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="row_start"><param name="Local" value="structcoord__t.html#a535f79016a227dafa8949c086a6e1250"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="color_t"><param name="Local" value="structcolor__t.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="color_b"><param name="Local" value="structcolor__t.html#ac1756f5c8b8f8a6c880c1709ab0edc23"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="color_g"><param name="Local" value="structcolor__t.html#ae90c968013867a5583221ea5f4a2257a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="color_r"><param name="Local" value="structcolor__t.html#a6859a2b77e80c342f63659e9ef0256f1"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="contrast_t"><param name="Local" value="structcontrast__t.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="a_contrast"><param name="Local" value="structcontrast__t.html#a4217cc7ca5e77c3bf2c1acf4c1227539"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="b_contrast"><param name="Local" value="structcontrast__t.html#aa795693174c63e812ab08e4ec1d3061b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="c_contrast"><param name="Local" value="structcontrast__t.html#ae3c509833c2c1062dd60396c51983f76"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="buffer_size_t"><param name="Local" value="oled__switch__hw_8h.html#acad2a853388e7ca3d29e8399ba40d446"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="BIG"><param name="Local" value="oled__switch__hw_8h.html#acad2a853388e7ca3d29e8399ba40d446a4e4825dfb3c3a4c83ed71e2a38a3a70d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SMALL"><param name="Local" value="oled__switch__hw_8h.html#acad2a853388e7ca3d29e8399ba40d446aea5e596a553757a677cb4da4c8a1f935"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="color_depth_t"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HORIZ_ADD_INC"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290a735d861001f4fe23f4a327fd7feec0e1"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="VERT_ADD_INC"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290aa63aa2c938290ac574219d81899cd912"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RAM_COL_0_95"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290a781299d15830340aa2e062c09c866fbe"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RAM_COL_95_0"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290ad25b6e89eb421ced537b6e9cfbf49f5a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RGB_ORDER"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290af583d42d18f7031f3f95f2888855b8ad"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="BGR_ORDER"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290a390dc7908961906350cb799e1d7ae3dc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DISABLE_COM_SWAPPING"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290acc65fff76efa5f78faa1afea77a94f1e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ENABLE_COM_SWAPPING"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290a502cf2a59aad56b85105452fd1d521bf"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="COLOR_256"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290ad345ef6765645b31ed13b57f32a82943"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="COLOR_65K"><param name="Local" value="oled__switch__hw_8h.html#aa3d2e0f6323333826ad4345f3fb8e290a5d7194b609203c9cba4105a4ef6421d2"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="fill_sett_t"><param name="Local" value="oled__switch__hw_8h.html#a49c7a3d1cda7be56fe7ff724b65df7d5"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DISABLE_FILL"><param name="Local" value="oled__switch__hw_8h.html#a49c7a3d1cda7be56fe7ff724b65df7d5adfa164984ad5e10dc909cf6a90ddcc4c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ENABLE_FILL"><param name="Local" value="oled__switch__hw_8h.html#a49c7a3d1cda7be56fe7ff724b65df7d5a281561f25b63a5c314adc5cae7da6819"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DISABLE_REVERSE_COPY"><param name="Local" value="oled__switch__hw_8h.html#a49c7a3d1cda7be56fe7ff724b65df7d5a921e8830e3015d076b2712215f70f4b6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ENABLE_REVERSE_COPY"><param name="Local" value="oled__switch__hw_8h.html#a49c7a3d1cda7be56fe7ff724b65df7d5a6cca3d70c541fa7a1ba00a5cd5bf3458"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_activate_scrolling"><param name="Local" value="oled__switch__hw_8h.html#a06d7b211c4481fb2556ebf9bba65535a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_clear_window"><param name="Local" value="oled__switch__hw_8h.html#a1989493e66e4199e1cd6c0a4b6b31833"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_copy"><param name="Local" value="oled__switch__hw_8h.html#a22d9dde9c133eab74e9774b092916ad4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_deactivate_scrolling"><param name="Local" value="oled__switch__hw_8h.html#a6d809718ff59fba01871a12afce85c63"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_dim_window"><param name="Local" value="oled__switch__hw_8h.html#a6c1f7872dfa5398400c7b6e25a3aecb4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_draw_565_img"><param name="Local" value="oled__switch__hw_8h.html#a0047e20a4e4d193c45b73cc8b8acead6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_draw_line"><param name="Local" value="oled__switch__hw_8h.html#a9e058e9b3db7198af452fc327b22cefe"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_draw_rectangle"><param name="Local" value="oled__switch__hw_8h.html#ac0315e311426d94476243a6c9468fac0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_fill_settings"><param name="Local" value="oled__switch__hw_8h.html#a38e86626a9adc5a3a9f6d914b78c15c7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_init"><param name="Local" value="oled__switch__hw_8h.html#a44fd6c6f32e6df6fa4008d359f2cad35"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_scrolling_setup"><param name="Local" value="oled__switch__hw_8h.html#a0ca30c1fa5e28446db7a6a3857f9b49c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_abc_contrast"><param name="Local" value="oled__switch__hw_8h.html#ac843ff2dc4d31721833e938b05b1f7e3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_col_range"><param name="Local" value="oled__switch__hw_8h.html#aeb1b8a4e4e1265c6400aca0669c83173"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_display_offset"><param name="Local" value="oled__switch__hw_8h.html#ac879b9f6ba1b6208920e8c80fa030f95"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_display_start_line"><param name="Local" value="oled__switch__hw_8h.html#a2e93acf77210bc66cd2537a61578850d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_master_current"><param name="Local" value="oled__switch__hw_8h.html#a7f9d028a991f04338ff5a7aaa2c77455"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_multiplex_ratio"><param name="Local" value="oled__switch__hw_8h.html#a70efacdb11ae73e726d313179322c7fe"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_normal_display"><param name="Local" value="oled__switch__hw_8h.html#a415aa0b02a9a025b91875a6ad4f9edd0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_remap_color_depth"><param name="Local" value="oled__switch__hw_8h.html#a744730e8b01da61fd1f1beb33fe11d47"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_row_range"><param name="Local" value="oled__switch__hw_8h.html#a261c873f2c078a887a0af5a6fcca5dbb"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="paint_bitmap.h"><param name="Local" value="paint__bitmap_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_68267d1309a1af8e8297ef4c3efbcdba.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal.c"><param name="Local" value="oled__switch__hal_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_cmd"><param name="Local" value="oled__switch__hal_8c.html#a01b49ec9fd635269e61fe88e66fa7363"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_cs"><param name="Local" value="oled__switch__hal_8c.html#a0c7ca82a56914507cea04e27097d97d3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_init"><param name="Local" value="oled__switch__hal_8c.html#aa121f9432d970df2e680706c41f7f177"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_rst"><param name="Local" value="oled__switch__hal_8c.html#a2d54d1bb51023311fba926afd591ebb2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_write"><param name="Local" value="oled__switch__hal_8c.html#afeb1223a4015c28bc36ff45a4c4c5a9a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hal_write_image"><param name="Local" value="oled__switch__hal_8c.html#add97150f4c7ec3a4c0b38bf9a22533d8"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_hw.c"><param name="Local" value="oled__switch__hw_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="A_CONTRAST"><param name="Local" value="oled__switch__hw_8c.html#ae09d937f2aaa2af562cbe144505c01f7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ACTIVATE_SCROLLING"><param name="Local" value="oled__switch__hw_8c.html#ab2a906aa75b049b39287c59f3056d4e1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ALL_PIXELS_ON_HIGH_BRGHT"><param name="Local" value="oled__switch__hw_8c.html#a573b7d3b307765e9d032da6128a72322"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ALL_PIXELS_ON_LOW_INTENS"><param name="Local" value="oled__switch__hw_8c.html#aec755c0f91f5a162fd1af49913482183"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="B_CONTRAST"><param name="Local" value="oled__switch__hw_8c.html#ac101840ac58196b4cf14e0c08de2f872"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="C_CONTRAST"><param name="Local" value="oled__switch__hw_8c.html#aa0e14f262d59c87538eb92f57d3c0d2a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CLEAR_WINDOW"><param name="Local" value="oled__switch__hw_8c.html#a02587d79d38fe995e643e29a7cbafa77"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="COPY"><param name="Local" value="oled__switch__hw_8c.html#a9e77d621548de2a80bc9c5909bfa2b8a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DEACTIVATE_SCROLLING"><param name="Local" value="oled__switch__hw_8c.html#a509b6bb5dd78d7e83bdc994aca5d05e6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DIM_DISPLAY"><param name="Local" value="oled__switch__hw_8c.html#a87246552699b89f92c371069b687fa6b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DIM_MODE_ABC"><param name="Local" value="oled__switch__hw_8c.html#aef8732ae1fbcbee45b82539974e5f84e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DIM_WINDOW"><param name="Local" value="oled__switch__hw_8c.html#a52ee2273fa66e2328e452d3631f98ead"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DISPLAY_OFF"><param name="Local" value="oled__switch__hw_8c.html#ad2ec9831813c5e7069917aa4455af682"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DISPLAY_ON"><param name="Local" value="oled__switch__hw_8c.html#a5ae6b05b3e1559c97f0d1b2daaaa0ee4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DRAW_LINE"><param name="Local" value="oled__switch__hw_8c.html#aaaf691ff248b146a282d634944b926ba"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DRAW_RECTANGLE"><param name="Local" value="oled__switch__hw_8c.html#a5ea567c043550f364d17e45c265db453"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DSPLY_CLK_DIV_OSC_FREQ"><param name="Local" value="oled__switch__hw_8c.html#a7c8dc05531f5a5ee3b676da1312bd03a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DSPLY_ON_NORMAL_MODE"><param name="Local" value="oled__switch__hw_8c.html#a09ba01452cba82d50c8a688dd9c54bb4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ENABLE_LINEAR_GRAY_SCALE"><param name="Local" value="oled__switch__hw_8c.html#a472e02145a6796b03256a7dd9846275a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="FILL_ENABLE_DISABLE"><param name="Local" value="oled__switch__hw_8c.html#a598ac0afe63a75f2c39c8f734e370509"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="INVERSE_DISPLAY"><param name="Local" value="oled__switch__hw_8c.html#a839e7ee6eb35a784cfbae228d23bafa1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="MAST_CURR_CNTL"><param name="Local" value="oled__switch__hw_8c.html#a724554323a36961fdb0cb7f97b622660"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="MASTER_CONFIG"><param name="Local" value="oled__switch__hw_8c.html#a334a3c9ba8ab1065b10b6070a316a7e6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="MULTIPLEX_RATIO"><param name="Local" value="oled__switch__hw_8c.html#a63a6624caff74d77e9e7ff3c90cce1ff"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="NOP"><param name="Local" value="oled__switch__hw_8c.html#a700f88377bf36711b711f69b06c52f5d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="NORMAL_DSPLY"><param name="Local" value="oled__switch__hw_8c.html#a6f9e8b61ef8c3dfdb1089a0cfe2b8d18"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="PHASE_1_2_ADJ"><param name="Local" value="oled__switch__hw_8c.html#ae74f01f8e1a6792d0a013b4e7cfe18eb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="PRE_CHRGE_LVL"><param name="Local" value="oled__switch__hw_8c.html#a25b2d5687c31891b4768e8421649918c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="PWR_SAVE_MODE"><param name="Local" value="oled__switch__hw_8c.html#a19fb8d366060f218ad35adcaf61465cc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="REMAP_CLR_DPTH_SETT"><param name="Local" value="oled__switch__hw_8c.html#a512356783caf9ea673c0b0af45d94765"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SCROLLING_SETUP"><param name="Local" value="oled__switch__hw_8c.html#abf77f07fb99bc0228261675c2e258272"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SET_COL_RANGE"><param name="Local" value="oled__switch__hw_8c.html#a31a7a0357348c607a970c70de8ac1161"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SET_DSPLY_OFFSET"><param name="Local" value="oled__switch__hw_8c.html#a5234fb7cebad8a2f1edecece5d89444e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SET_DSPLY_STRT_LINE"><param name="Local" value="oled__switch__hw_8c.html#a2255a5adb22b34057a49ec89ca852427"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SET_ROW_RANGE"><param name="Local" value="oled__switch__hw_8c.html#a5dbf6184c140edebb62734940f6baa89"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SET_VCOMH"><param name="Local" value="oled__switch__hw_8c.html#ae475639b0b851b5c7dd3ec906a06c58b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_activate_scrolling"><param name="Local" value="oled__switch__hw_8c.html#a06d7b211c4481fb2556ebf9bba65535a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_clear_window"><param name="Local" value="oled__switch__hw_8c.html#a1989493e66e4199e1cd6c0a4b6b31833"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_copy"><param name="Local" value="oled__switch__hw_8c.html#a22d9dde9c133eab74e9774b092916ad4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_deactivate_scrolling"><param name="Local" value="oled__switch__hw_8c.html#a6d809718ff59fba01871a12afce85c63"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_dim_window"><param name="Local" value="oled__switch__hw_8c.html#a6c1f7872dfa5398400c7b6e25a3aecb4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_draw_565_img"><param name="Local" value="oled__switch__hw_8c.html#a0047e20a4e4d193c45b73cc8b8acead6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_draw_line"><param name="Local" value="oled__switch__hw_8c.html#a9e058e9b3db7198af452fc327b22cefe"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_draw_rectangle"><param name="Local" value="oled__switch__hw_8c.html#ac0315e311426d94476243a6c9468fac0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_fill_settings"><param name="Local" value="oled__switch__hw_8c.html#a38e86626a9adc5a3a9f6d914b78c15c7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_init"><param name="Local" value="oled__switch__hw_8c.html#a44fd6c6f32e6df6fa4008d359f2cad35"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_scrolling_setup"><param name="Local" value="oled__switch__hw_8c.html#a0ca30c1fa5e28446db7a6a3857f9b49c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_abc_contrast"><param name="Local" value="oled__switch__hw_8c.html#ac843ff2dc4d31721833e938b05b1f7e3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_col_range"><param name="Local" value="oled__switch__hw_8c.html#aeb1b8a4e4e1265c6400aca0669c83173"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_display_offset"><param name="Local" value="oled__switch__hw_8c.html#ac879b9f6ba1b6208920e8c80fa030f95"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_display_start_line"><param name="Local" value="oled__switch__hw_8c.html#a2e93acf77210bc66cd2537a61578850d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_master_current"><param name="Local" value="oled__switch__hw_8c.html#a7f9d028a991f04338ff5a7aaa2c77455"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_multiplex_ratio"><param name="Local" value="oled__switch__hw_8c.html#a70efacdb11ae73e726d313179322c7fe"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_normal_display"><param name="Local" value="oled__switch__hw_8c.html#a415aa0b02a9a025b91875a6ad4f9edd0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_remap_color_depth"><param name="Local" value="oled__switch__hw_8c.html#a744730e8b01da61fd1f1beb33fe11d47"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="oled_switch_set_row_range"><param name="Local" value="oled__switch__hw_8c.html#a261c873f2c078a887a0af5a6fcca5dbb"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Macros"><param name="Local" value="globals_defs.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>
